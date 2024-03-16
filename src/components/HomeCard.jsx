@@ -24,7 +24,7 @@ const HomeCard = () => {
         variants={variants}
         transition={{ delay: 0.75 }}
       >
-        I'am
+        I&apos;am
       </motion.p>
       <motion.p
         className="text-8xl font-bold third"

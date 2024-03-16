@@ -59,7 +59,7 @@ const AboutMe = () => {
           </p>
           <p className="text-2xl font-semibold">
             I started programming in 2023, and from the moment I wrote my first
-            line of code, I knew this was my calling. Since then, I've dedicated
+            line of code, I knew this was my calling. Since then, I&apos;ve dedicated
             myself to improving my skills and knowledge in this exciting field
             every day.
           </p>
@@ -77,7 +77,7 @@ const AboutMe = () => {
             Work
           </h2>
           <p className="text-xl font-semibold">
-            Until this moment, I haven't worked at any company.
+            Until this moment, I haven&apos;t worked at any company.
           </p>
         </div>
 

@@ -18,7 +18,7 @@ const FrontendSkills = () => {
         </p>
         <p className="text-2xl">
           In terms of mobile app development, I have experience working with
-          React Native. It's a powerful framework that allows for building
+          React Native. It&apos;s a powerful framework that allows for building
           cross-platform mobile applications using JavaScript and React. With
           React Native, I can efficiently develop mobile apps for both iOS and
           Android platforms, maximizing code reusability and reducing

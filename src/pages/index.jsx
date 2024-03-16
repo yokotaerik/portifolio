@@ -48,7 +48,7 @@ export default function Home() {
       </Head>
       <HomeCard />
       <h3 className=" text-8xl font-bold mt-24 text-blue-950 dark:text-white">
-        That's My Way
+        That&apos;s My Way
       </h3>
       <div className="flex flex-col mt-20 gap-24">
         <div ref={frontendRef}>
