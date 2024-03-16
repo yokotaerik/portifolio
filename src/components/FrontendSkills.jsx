@@ -3,8 +3,8 @@ import { FaReact } from "react-icons/fa";
 
 const FrontendSkills = () => {
   return (
-    <div className="flex justify-between items-center">
-      <div className="w-1/2">
+    <div className="flex flex-col lg:flex-row justify-between items-center w-full">
+      <div className="w-full lg:w-1/2">
         <h2 className="text-4xl font-bold text-yellow-500 dark:text-rose-500 mb-4">
           FRONTEND
         </h2>

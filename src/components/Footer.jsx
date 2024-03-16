@@ -3,8 +3,8 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="p-8 border-t-2 dark:bg-neutral-800 dark:border-neutral-600">
-      <div className="flex justify-evenly items-center px-6">
+    <footer className="p-8 border-t-2 dark:bg-neutral-800 dark:border-neutral-600 w-full">
+      <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-evenly items-center px-6">
         <div className="text-center">
           <p className="text-lg font-semibold mb-2 dark:text-rose-500">
             Social Medias

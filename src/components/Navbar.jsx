@@ -4,16 +4,15 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { FaMoon } from "react-icons/fa";
 import { MdSunny } from "react-icons/md";
-import rosto from "../images/rosto.jpg"
+import rosto from "../images/rosto.jpg";
 import Image from "next/image";
-
 
 function Navbar() {
   const { toggleTheme, theme } = useContext(ThemeContext);
   const router = useRouter();
 
   return (
-    <nav className="flex justify-between items-center pt-16 mb-24">
+    <nav className="flex justify-evenly md:justify-between items-center pt-16 mb-24">
       <div className="flex justify-center items-center gap-4">
         <Image
           src={rosto}
@@ -21,7 +20,7 @@ function Navbar() {
           width={50}
           className="rounded-full"
         />
-        <p className="text-xl font-semibold">Erik Yokota</p>
+        <p className="text-xl font-semibold  hidden md:block">Erik Yokota</p>
       </div>
       <div className="flex flex-row">
         {[

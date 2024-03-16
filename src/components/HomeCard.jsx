@@ -7,9 +7,9 @@ const HomeCard = () => {
   };
 
   return (
-    <div>
+    <div className="w-full">
       <motion.h1
-        className="text-yellow-500 dark:text-rose-500 text-2xl font-bold first px-2"
+        className="text-yellow-500 dark:text-rose-500 text-2xl font-bold w-full px-2"
         initial="hidden"
         animate="visible"
         variants={variants}
@@ -18,7 +18,7 @@ const HomeCard = () => {
         HELLO MY NAME IS ERIK
       </motion.h1>
       <motion.p
-        className="text-8xl font-bold second"
+        className="text-7xl md:text-8xl font-bold w-full"
         initial="hidden"
         animate="visible"
         variants={variants}
@@ -27,7 +27,7 @@ const HomeCard = () => {
         I&apos;am
       </motion.p>
       <motion.p
-        className="text-8xl font-bold third"
+        className="text-7xl md:text-8xl font-bold w-full"
         initial="hidden"
         animate="visible"
         variants={variants}
@@ -36,7 +36,7 @@ const HomeCard = () => {
         Software
       </motion.p>
       <motion.p
-        className="text-8xl font-bold fourth"
+        className="text-7xl md:text-8xl font-bold w-full"
         initial="hidden"
         animate="visible"
         variants={variants}
@@ -45,7 +45,7 @@ const HomeCard = () => {
         Developer
       </motion.p>
       <motion.p
-        className="text-4xl font-semibold mt-16 dark:text-cyan-500 last"
+        className="text-4xl font-semibold mt-16 dark:text-cyan-500 w-full"
         initial="hidden"
         animate="visible"
         variants={variants}

@@ -18,7 +18,7 @@ import profilePic from "../../images/about-me.jpg";
 
 const AboutMe = () => {
   const variants = {
-    hidden: { opacity: 0, x: 100 },
+    hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, x: 0 },
   };
 
@@ -36,15 +36,15 @@ const AboutMe = () => {
         <title>About me | Yokota</title>
       </Head>
       <motion.h1
-        className="text-8xl font-bold text-yellow-500 dark:text-rose-500"
+        className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500"
         variants={variants}
         transition={transition}
       >
         Greetings!
       </motion.h1>
-      <div className="flex justify-start gap-8">
+      <div className="flex flex-col md:flex-row justify-start gap-8">
         <motion.div variants={variants} transition={transition}>
-          <div className="w-[470px] shadow-md">
+          <div className="md:w-[470px] w-full shadow-md">
             <Image src={profilePic} alt="Picture of the author" />
           </div>
         </motion.div>
@@ -59,9 +59,9 @@ const AboutMe = () => {
           </p>
           <p className="text-2xl font-semibold">
             I started programming in 2023, and from the moment I wrote my first
-            line of code, I knew this was my calling. Since then, I&apos;ve dedicated
-            myself to improving my skills and knowledge in this exciting field
-            every day.
+            line of code, I knew this was my calling. Since then, I&apos;ve
+            dedicated myself to improving my skills and knowledge in this
+            exciting field every day.
           </p>
           <p className="text-2xl font-semibold">
             Currently, my focus is on enhancing my backend development skills
@@ -85,7 +85,7 @@ const AboutMe = () => {
           <h2 className="text-4xl font-bold text-blue-950 dark:text-cyan-500 mb-4">
             Stacks
           </h2>
-          <span className="flex text-8xl gap-4 text-blue-950 dark:text-white">
+          <span className="flex text-8xl gap-4 text-blue-950 dark:text-white flex-wrap ">
             <FaPython title="Python" />
             <FaJava title="Java" />
             <IoLogoJavascript title="JavaScript" />
