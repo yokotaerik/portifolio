@@ -2,32 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.dark p {
+  color: white;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: whitesmoke;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+/* .dark span {
+  @apply text-cyan-500;
+}
+
+span {
+  @apply text-blue-950;
+} */
+
+p {
+  @apply text-blue-950;
+}
+
+* {
+  @apply transition-colors duration-500;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Animação de entrada da direita */
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
   }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slide-in-right {
+  animation: slideInRight 1s ease-in-out forwards;
+}
+
+/* Animação de entrada da esquerda */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  animation: slideInLeft 1s ease-in-out forwards;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
 }
