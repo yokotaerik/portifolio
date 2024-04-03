@@ -26,7 +26,7 @@ const AboutMe = () => {
 
   return (
     <motion.div
-      className="flex flex-col gap-24"
+      className="flex flex-col gap-28 p-4"
       initial="hidden"
       animate="visible"
       variants={variants}
@@ -42,9 +42,9 @@ const AboutMe = () => {
       >
         Greetings!
       </motion.h1>
-      <div className="flex flex-col md:flex-row justify-start gap-8">
+      <div className="flex flex-col lg:flex-row justify-start gap-8">
         <motion.div variants={variants} transition={transition}>
-          <div className="md:w-[470px] w-full shadow-md">
+          <div className="lg:w-[470px] w-full shadow-md">
             <Image src={profilePic} alt="Picture of the author" />
           </div>
         </motion.div>

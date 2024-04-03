@@ -7,7 +7,7 @@ const HomeCard = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full mt-24">
       <motion.h1
         className="text-yellow-500 dark:text-rose-500 text-2xl font-bold w-full px-2"
         initial="hidden"

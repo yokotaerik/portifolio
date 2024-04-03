@@ -12,7 +12,7 @@ function Navbar() {
   const router = useRouter();
 
   return (
-    <nav className="flex justify-evenly md:justify-between items-center pt-16 mb-24">
+    <nav className="flex justify-evenly md:justify-between items-center pt-16">
       <div className="flex justify-center items-center gap-4">
         <Image
           src={rosto}
