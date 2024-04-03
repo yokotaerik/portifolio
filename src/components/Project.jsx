@@ -1,4 +1,6 @@
 import React from "react";
+import Link from "next/link";
+
 
 const Project = ({ title, description, stacks, repository }) => {
   return (
@@ -20,7 +22,10 @@ const Project = ({ title, description, stacks, repository }) => {
         ))}
       </div>
       <p className="text-lg font-bold">
-        Repository: {repository ? repository : "Private"}
+        Repository: {repository ? (
+        <Link href={repository}>Click here</Link>
+        )
+        : "Private"}
       </p>
     </div>
   );

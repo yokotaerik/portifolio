@@ -71,7 +71,7 @@ const AboutMe = () => {
         </motion.div>
       </div>
 
-      <div className="w-4/5 flex flex-col gap-12">
+      <div className="w-full flex flex-col gap-12">
         <div>
           <h2 className="text-4xl font-bold text-blue-950 dark:text-cyan-500 mb-2">
             Work

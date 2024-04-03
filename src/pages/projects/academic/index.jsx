@@ -10,12 +10,14 @@ const AcademicProjectsPage = () => {
       description:
         "API of the 1st semester built by the Pixels group that consists of creating an informative website about chronic infantile renal disease with a blog for sharing stories and news.\n\nMy contributions:\n- 1st Sprint: Development of the wireframe, with the main assignment being the Homepage.\n- 2nd Sprint: Database requirements gathering, database implementation, creation of login and session logic.\n- 3rd Sprint: Implementation of post creation and display, both on a single page and on the blog, dynamically placing the blog content.",
       stacks: ["Flask", "MySql"],
+      repository: "https://github.com/Daiene/Pixels"
     },
     {
       title: "Digital Portfolio",
       description:
         "Creation of a website containing my personal portfolio in the Digital Design discipline. It contains three sections: Presentation about me, projects, and about me.",
       stacks: ["Flask", "Html", "Bootstrap"],
+      repository: "https://github.com/yokotaerik/portifolio_digital_dsm"
     },
   ];
 
@@ -47,6 +49,7 @@ const AcademicProjectsPage = () => {
             title={project.title}
             description={project.description}
             stacks={project.stacks}
+            repository={project.repository}
             icon={project.icon}
           />
         ))}

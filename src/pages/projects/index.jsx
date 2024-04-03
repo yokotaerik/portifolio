@@ -3,12 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
 import {
-  FaPeopleCarry,
-  FaSchool,
-  FaSmile,
   FaUniversity,
-  FaUser,
-  FaUserNinja,
   FaUserSecret,
 } from "react-icons/fa";
 import Link from "next/link";
@@ -33,12 +28,13 @@ const ProjectsPage = () => {
       <Head>
         <title>Projects | Yokota</title>
       </Head>
-      <h1 className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-24 mt-16">
+      <h1 className="text-7xl text-center md:text-start md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-24 mt-16">
         Projects
       </h1>
+        
       <div className="flex flex-wrap gap-24">
         <Link href={"/projects/academic"}>
-          <div className="flex gap-10 flex-col md:flex-row">
+          <div className="flex items-center text-center md:text-start gap-10 flex-col md:flex-row">
             <span className="text-blue-950 dark:text-white">
               <FaUniversity size={320} />
             </span>
@@ -46,7 +42,7 @@ const ProjectsPage = () => {
               <h2 className="text-4xl font-bold text-yellow-500 dark:text-cyan-500 mb-4">
                 ACADEMIC PROJECTS
               </h2>
-              <p className="text-2xl">
+              <p className="text-2xl lg:w-3/4">
                 Here we have my projects developed at FATEC on Multiplatform
                 Software Development.
               </p>
@@ -55,7 +51,7 @@ const ProjectsPage = () => {
         </Link>
 
         <Link href={"/projects/personal"}>
-        <div className="flex gap-10 flex-col md:flex-row">
+        <div className="flex items-center text-center md:text-start gap-10 flex-col md:flex-row">
             <span className="text-blue-950 dark:text-white">
               <FaUserSecret size={320} />
             </span>
@@ -63,7 +59,7 @@ const ProjectsPage = () => {
               <h2 className="text-4xl font-bold text-yellow-500 dark:text-cyan-500 mb-4">
                 PERSONAL PROJECTS
               </h2>
-              <p className="text-2xl">
+              <p className="text-2xl lg:w-3/4">
                 Here we have my personal projects developed outside of academic
                 settings.
               </p>
