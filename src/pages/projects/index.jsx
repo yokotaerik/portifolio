@@ -2,14 +2,10 @@ import Project from "@/components/Project";
 import React from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
-import {
-  FaUniversity,
-  FaUserSecret,
-} from "react-icons/fa";
+import { FaUniversity, FaUserSecret } from "react-icons/fa";
 import Link from "next/link";
 
 const ProjectsPage = () => {
-
   const variants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, x: 0 },
@@ -31,7 +27,7 @@ const ProjectsPage = () => {
       <h1 className="text-7xl text-center md:text-start md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-24 mt-16">
         Projects
       </h1>
-        
+
       <div className="flex flex-wrap gap-24">
         <Link href={"/projects/academic"}>
           <div className="flex items-center text-center md:text-start gap-10 flex-col md:flex-row">
@@ -51,7 +47,7 @@ const ProjectsPage = () => {
         </Link>
 
         <Link href={"/projects/personal"}>
-        <div className="flex items-center text-center md:text-start gap-10 flex-col md:flex-row">
+          <div className="flex items-center text-center md:text-start gap-10 flex-col md:flex-row">
             <span className="text-blue-950 dark:text-white">
               <FaUserSecret size={320} />
             </span>

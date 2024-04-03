@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-
-const Project = ({ title, description, stacks, repository }) => {
+const Project = ({ title, description, stacks, repository, challenges }) => {
   return (
     <div className="bg-white dark:bg-neutral-700 rounded-lg p-6 shadow-md flex flex-col gap-4 justify-between h-full">
       <div>
@@ -10,6 +9,7 @@ const Project = ({ title, description, stacks, repository }) => {
           {title}
         </h2>
         <p className="text-lg text-gray-800">{description}</p>
+        <p className="text-lg text-gray-800">{challenges}</p>
       </div>
       <div className="flex flex-wrap gap-2">
         {stacks.map((technology, index) => (
@@ -22,10 +22,8 @@ const Project = ({ title, description, stacks, repository }) => {
         ))}
       </div>
       <p className="text-lg font-bold">
-        Repository: {repository ? (
-        <Link href={repository}>Click here</Link>
-        )
-        : "Private"}
+        Repository:{" "}
+        {repository ? <Link href={repository}>Click here</Link> : "Private"}
       </p>
     </div>
   );
