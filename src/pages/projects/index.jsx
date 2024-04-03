@@ -33,12 +33,12 @@ const ProjectsPage = () => {
       <Head>
         <title>Projects | Yokota</title>
       </Head>
-      <h1 className="text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-24 mt-16">
+      <h1 className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-24 mt-16">
         Projects
       </h1>
       <div className="flex flex-wrap gap-24">
         <Link href={"/projects/academic"}>
-          <div className="flex gap-10">
+          <div className="flex gap-10 flex-col md:flex-row">
             <span className="text-blue-950 dark:text-white">
               <FaUniversity size={320} />
             </span>
@@ -55,7 +55,7 @@ const ProjectsPage = () => {
         </Link>
 
         <Link href={"/projects/personal"}>
-          <div className="flex gap-10">
+        <div className="flex gap-10 flex-col md:flex-row">
             <span className="text-blue-950 dark:text-white">
               <FaUserSecret size={320} />
             </span>

@@ -37,7 +37,7 @@ const AcademicProjectsPage = () => {
       <Head>
         <title>Projects | Yokota</title>
       </Head>
-      <h1 className="text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-12 mt-16">
+      <h1 className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-12 mt-16">
         Academic projects
       </h1>
       <div className="flex flex-wrap gap-8">
