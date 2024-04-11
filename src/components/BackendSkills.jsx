@@ -45,7 +45,7 @@ const BackendSkills = () => {
             BACKEND
           </h2>
           <p className="text-2xl">
-            I'm an enthusiastic user of the Spring ecosystem and object-oriented
+            I&apos;m an enthusiastic user of the Spring ecosystem and object-oriented
             programming (OOP). My expertise extends to both relational databases
             like MySQL, Postgres, and non-relational databases like MongoDB. I
             frequently use JWT for authentication and utilize mappers to
@@ -53,10 +53,10 @@ const BackendSkills = () => {
             VIEW layer demands
           </p>
           <p className="text-2xl">
-            Additionally, I'm studying testing and have started implementing
+            Additionally, I&apos;m studying testing and have started implementing
             unit tests in my projects. I have a strong interest in studying
             microservices and cloud technologies like AWS, Azure, and Google
-            Cloud. I've also developed applications using Node.js, employing
+            Cloud. I&apos;ve also developed applications using Node.js, employing
             frameworks such as Express and Nest.js, as well as a simple blog in
             Flask.
           </p>
