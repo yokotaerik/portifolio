@@ -2,6 +2,7 @@ import Project from "@/components/Project";
 import React from "react";
 import { motion } from "framer-motion";
 import Head from "next/head";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const PersonalProjectPage = () => {
   const projects = [
@@ -42,6 +43,44 @@ const PersonalProjectPage = () => {
     },
   ];
 
+  const projetos = [
+    {
+      title: "YK-Train - Acompanhamento de Treino",
+      description:
+        "Uma aplicação desenvolvida com React, TypeScript, Java Spring e MySQL. Sua função principal é armazenar o desempenho dos treinos na academia ao longo do tempo. Os usuários podem registrar suas sessões de treinamento, incluindo exercícios realizados, séries, repetições e pesos. A aplicação fornece uma interface simples para entrada e recuperação de dados. Com sua estrutura de backend eficiente, garante um armazenamento rápido e confiável dos dados de treinamento. Seja acompanhando o progresso ou simplesmente mantendo um registro de treinamento, nosso companheiro oferece uma solução direta para armazenar o desempenho do treino.",
+      stacks: ["React", "Spring", "MySql"],
+      repository: "https://github.com/yokotaerik/gym_workout_tracker",
+      challenges:
+        "No YK-Train , meu principal desafio foi arquitetar o software. Trabalhei extensivamente com várias entidades e como conectar e criar a lógica para o treinamento para manter um modelo, mas ter entidades dentro dele, criando uma cascata de entidades dependentes. Isso exigiu garantir conectividade funcional e gerenciamento adequado de dependências.",
+    },
+    {
+      title: "Yomaik - Rede Social",
+      description:
+        "Yomaik é uma plataforma de rede social projetada para os usuários compartilharem pensamentos, postarem atualizações e se conectarem com outros. Possui registro e login seguro de usuário, criação de postagens com funcionalidade de comentário e curtida, sistema de seguidores e seguindo, e um feed personalizado. Construído com Java Spring Boot para o backend e MongoDB para armazenamento flexível de dados, com um frontend React para interfaces de usuário interativas. Explore e construa conexões no Yomaik!",
+      stacks: ["React", "Spring", "MongoDB"],
+      repository: "https://github.com/yokotaerik/rede_social",
+      challenges:
+        "No Yomaik, meu desafio foi integrar Spring com MongoDB pela primeira vez. Tive que compreender os fundamentos do Spring e entender como o MongoDB se comporta com o Spring. Além disso, foi minha primeira experiência com um banco de dados baseado em documentos.",
+    },
+    {
+      title: "Easy Project - Gerenciamento de Projetos",
+      description:
+        "O Sistema de Gerenciamento de Projetos é uma aplicação web desenvolvida em Java com Spring Framework e usando MySQL como banco de dados. Permite que os gerentes criem projetos, adicionem funcionários e atribuam tarefas, facilitando a distribuição e o monitoramento de tarefas. Focado na eficiência e transparência, o sistema fornece uma maneira intuitiva de gerenciar projetos, acompanhar o progresso das tarefas e garantir que os prazos sejam cumpridos.",
+      stacks: ["React", "Spring", "MySql"],
+      challenges:
+        "No Easy Project, meu desafio foi entender o Spring JPA e trabalhar efetivamente com o MySQL como banco de dados. Isso envolveu o gerenciamento de diferentes permissões com base em entidades e garantir que essas permissões fossem aplicadas à entidade do projeto e não a um contexto global.",
+    },
+    {
+      title: "DoceriaDaNanna - Gerenciaddor de Pedidos",
+      description:
+        "DoceriaDaNanna - Gerenciaddor de Pedidos é uma aplicação projetada para simplificar o gerenciamento de pedidos em uma padaria ou café. Construído com Node.js, React, React Native e PostgreSQL, permite que os usuários criem mesas, adicionem pedidos associados a cada mesa e enviem pedidos para a cozinha para preparo. Uma vez que a cozinha completa um pedido, o garçom pode então entregá-lo à mesa respectiva. A aplicação possui um painel da cozinha para o gerenciamento de pedidos e um aplicativo móvel para garçons criarem e gerenciarem pedidos. Com sua estrutura de backend eficiente e interfaces amigáveis, o DoceriaDaNanna - Rastreador de Pedidos simplifica o processo de gerenciamento de pedidos, aprimorando a experiência geral do cliente.",
+      stacks: ["Node.js", "React", "React Native", "PostgreSQL"],
+      repository: "https://github.com/yokotaerik/doceriaDaNanna",
+      challenges:
+        "No DoceriaDaNanna, meu principal desafio foi entender Node.js e React.js, pois era baseado em um curso. Tive que compreender as aulas e entender o significado de cada conceito. Este projeto me proporcionou uma base sólida em React, que posteriormente utilizei para desenvolver outros front-ends.",
+    },
+  ];
+
   const variants = {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, x: 0 },
@@ -49,35 +88,69 @@ const PersonalProjectPage = () => {
 
   const transition = { duration: 0.75, ease: "easeInOut" };
 
-  return (
-    <motion.div
-      className="min-h-screen"
-      initial="hidden"
-      animate="visible"
-      variants={variants}
-      transition={transition}
-    >
-      <Head>
-        <title>Projects | Yokota</title>
-      </Head>
-      <h1 className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-12 mt-16">
-        Personal projects
-      </h1>
-      <div className="flex flex-wrap gap-8">
-        {projects.map((project, index) => (
-          <Project
-            key={index}
-            title={project.title}
-            description={project.description}
-            stacks={project.stacks}
-            challenges={project.challenges}
-            icon={project.icon}
-            repository={project.repository}
-          />
-        ))}
-      </div>
-    </motion.div>
-  );
+  const { language } = useLanguage();
+
+  if (language === "pt") {
+    return (
+      <motion.div
+        className="min-h-screen"
+        initial="hidden"
+        animate="visible"
+        variants={variants}
+        transition={transition}
+      >
+        <Head>
+          <title>Projetos | Yokota</title>
+        </Head>
+        <h1 className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-12 mt-16">
+          Projetos pessoais
+        </h1>
+        <div className="flex flex-wrap gap-8">
+          {projetos.map((project, index) => (
+            <Project
+              key={index}
+              title={project.title}
+              description={project.description}
+              stacks={project.stacks}
+              challenges={project.challenges}
+              icon={project.icon}
+              repository={project.repository}
+            />
+          ))}
+        </div>
+      </motion.div>
+    );
+  } else {
+    return (
+      <motion.div
+        className="min-h-screen"
+        initial="hidden"
+        animate="visible"
+        variants={variants}
+        transition={transition}
+      >
+        <Head>
+          <title>Projects | Yokota</title>
+        </Head>
+        <h1 className="text-7xl md:text-8xl font-bold text-yellow-500 dark:text-rose-500 mb-12 mt-16">
+          Personal projects
+        </h1>
+        <div className="flex flex-wrap gap-8">
+          {projects.map((project, index) => (
+            <Project
+              key={index}
+              title={project.title}
+              description={project.description}
+              stacks={project.stacks}
+              challenges={project.challenges}
+              icon={project.icon}
+              repository={project.repository}
+            />
+          ))}
+        </div>
+      </motion.div>
+    );
+  }
 };
 
 export default PersonalProjectPage;

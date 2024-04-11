@@ -12,20 +12,20 @@ const BackendSkills = () => {
           BACKEND
         </h2>
         <p className="text-2xl">
-          I&apos;m an enthusiastic user of the Spring ecosystem, deeply
-          passionate about object-oriented programming (OOP), and I often
-          implement the MVC architecture in my projects. My expertise extends to
-          both relational databases like MySQL, Postgres, and non-relational
-          databases like MongoDB. I frequently employ JWT for authentication and
-          utilize mappers to streamline DTO creation, enhancing API
-          communication.
+          Sou um usuário entusiasta do ecossistema Spring e programação
+          orientada a objetos (POO). Minha expertise se estende tanto a bancos
+          de dados relacionais como MySQL, Postgres, quanto a bancos de dados
+          não relacionais como MongoDB. Eu frequentemente uso JWT para
+          autenticação e utilizo mappers para simplificar a criação de DTO,
+          aprimorando a comunicação da API, se adequando as diferentes demandas
+          do camda VIEW.
         </p>
         <p className="text-2xl">
-          Moreover, I prioritize unit testing in my projects and have a keen
-          interest in studying microservices and cloud technologies. I&apos;ve
-          also developed applications using Node.js, employing frameworks like
-          Express and Nest.js. At my first semesters at college, I crafted a
-          blog using Flask.
+          Além disso, estou estudando sobre testes e comecei a aplicar testes
+          unitários em meus projetos e tenho um forte interesse em estudar
+          microservices e tecnologias em nuvem como AWS, Azure e Google Cloud.
+          Também desenvolvi aplicações utilizando Node.js, empregando frameworks
+          como Express e Nest.js. Além de um simples blog em Flask.
         </p>
       </div>
     </div>
