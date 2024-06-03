@@ -65,13 +65,13 @@ function Navbar() {
           </button>
           <select
             onChange={(e) => handleLanguageChange(e.target.value)}
-            className="appearance-none bg-transparent focus:border-blue-500 px-3 py-1 font-medium hover:border-slate-200 hover:border-b-4 dark:hover:border-slate-800 dark:text-white"
+            className="appearance-none bg-transparent focus:border-blue-500 px-3 py-1 font-medium hover:border-slate-200 hover:border-b-4 dark:hover:border-slate-800 dark:text-white text-blue-950"
           >
-            <option value="en">
-              <p>EN-US</p>
+            <option value="en"className="text-blue-950" >
+              <p className="text-blue-950">EN-US</p>
             </option>
-            <option value="pt">
-              <p>PT-BR</p>
+            <option value="pt" className="text-blue-950">
+              <p className="text-blue-950">PT-BR</p>
             </option>
           </select>
         </div>
