@@ -84,7 +84,16 @@ const AboutMe = () => {
               Experiência profissional
             </h2>
             <p className="text-xl font-semibold">
-              Não trabalhei em nenhuma empresa até o momento.
+              Estagiando na Prime Technology como desenvolvedor backend C#
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-4xl font-bold text-blue-950 dark:text-cyan-500 mb-2">
+              Academic
+            </h2>
+            <p>
+              I am currently studying Software Development at Fatec Jessen Vidal in São José dos Campos
             </p>
           </div>
 
@@ -151,9 +160,6 @@ const AboutMe = () => {
               My name is Erik Camara Yokota, and I am a Full-Stack Software
               Developer born and raised in São Paulo, Brazil.
             </p>
-            <p>
-              I am currently studying Software Development at Fatec Jessen Vidal in São José dos Campos
-            </p>
             <p className="text-2xl font-semibold">
               I started programming in 2023, and from the moment I wrote my
               first line of code, I knew this was my calling. Since then,
@@ -174,7 +180,16 @@ const AboutMe = () => {
               Work
             </h2>
             <p className="text-xl font-semibold">
-              Until this moment, I haven&apos;t worked at any company.
+              Interning at Prime Technology as backend developer C#
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-4xl font-bold text-blue-950 dark:text-cyan-500 mb-2">
+              Academic
+            </h2>
+            <p>
+              I am currently studying Software Development at Fatec Jessen Vidal in São José dos Campos
             </p>
           </div>
 
