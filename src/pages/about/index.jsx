@@ -60,6 +60,9 @@ const AboutMe = () => {
               Meu nome é Erik Camara Yokota, e eu sou um desenvolvedor de
               software Full-Stack nascido e criado em São Paulo, Brasil.
             </p>
+            <p> 
+              Atualmente estou cursando Desenvolvimento de Software Multiplataforma na Fatec Jessen Vidal de São José dos Campos.
+            </p>
             <p className="text-2xl font-semibold">
               Comecei a programar em 2023 e, desde o momento em que escrevi a
               minha primeira linha de código, soube que esta era a minha
@@ -147,6 +150,9 @@ const AboutMe = () => {
             <p className="text-2xl font-semibold">
               My name is Erik Camara Yokota, and I am a Full-Stack Software
               Developer born and raised in São Paulo, Brazil.
+            </p>
+            <p>
+              I am currently studying Software Development at Fatec Jessen Vidal in São José dos Campos
             </p>
             <p className="text-2xl font-semibold">
               I started programming in 2023, and from the moment I wrote my
