@@ -15,7 +15,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/in/seuperfil"
+                href="https://br.linkedin.com/in/erik-camara-yokota-685439233"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-950 hover:text-blue-700 dark:text-white"
@@ -23,7 +23,7 @@ const Footer = () => {
                 <FaLinkedin className="text-3xl" />
               </a>
               <a
-                href="https://github.com/seuusuario"
+                href="https://github.com/yokotaerik"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-950 hover:text-blue-700 dark:text-white"
@@ -64,7 +64,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/in/seuperfil"
+                href="https://br.linkedin.com/in/erik-camara-yokota-685439233"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-950 hover:text-blue-700 dark:text-white"
@@ -72,7 +72,7 @@ const Footer = () => {
                 <FaLinkedin className="text-3xl" />
               </a>
               <a
-                href="https://github.com/seuusuario"
+                href="https://github.com/yokotaerik"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-950 hover:text-blue-700 dark:text-white"

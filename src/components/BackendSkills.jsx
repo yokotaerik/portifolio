@@ -16,20 +16,10 @@ const BackendSkills = () => {
             BACKEND
           </h2>
           <p className="text-2xl">
-            Sou um usuário entusiasta do ecossistema Spring e programação
-            orientada a objetos (POO). Minha expertise se estende tanto a bancos
-            de dados relacionais como MySQL, Postgres, quanto a bancos de dados
-            não relacionais como MongoDB. Eu frequentemente uso JWT para
-            autenticação e utilizo mappers para simplificar a criação de DTO,
-            aprimorando a comunicação da API, se adequando as diferentes
-            demandas do camda VIEW.
+            Sou um desenvolvedor entusiasta da Programação Orientada a Objetos (POO), utilizando-a para simplificar o desenvolvimento de aplicações. Minha experiência abrange tanto bancos de dados relacionais quanto não relacionais. Atualmente, estudo arquitetura e padrões de projeto para aumentar a qualidade e escalabilidade do meu código, sempre visando criar um código limpo e de fácil manutenção.
           </p>
           <p className="text-2xl">
-            Além disso, estou estudando sobre testes e comecei a aplicar testes
-            unitários em meus projetos e tenho um forte interesse em estudar
-            microservices e tecnologias em nuvem como AWS, Azure e Google Cloud.
-            Também desenvolvi aplicações utilizando Node.js, empregando
-            frameworks como Express e Nest.js. Além de um simples blog em Flask.
+            Além disso, planejo me aprofundar em testes unitários e serviços na nuvem, bem como em técnicas de containerização. Estou constantemente buscando aprimorar minhas habilidades para entregar soluções mais robustas e eficientes.
           </p>
         </div>
       </div>

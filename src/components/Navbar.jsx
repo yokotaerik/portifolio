@@ -63,7 +63,7 @@ function Navbar() {
               </p>
             )}
           </button>
-          <select
+          {/* <select
             onChange={(e) => handleLanguageChange(e.target.value)}
             className="appearance-none bg-transparent focus:border-blue-500 px-3 py-1 font-medium hover:border-slate-200 hover:border-b-4 dark:hover:border-slate-800 dark:text-white text-blue-950"
           >
@@ -73,7 +73,7 @@ function Navbar() {
             <option value="pt" className="text-blue-950">
               <p className="text-blue-950">PT-BR</p>
             </option>
-          </select>
+          </select> */}
         </div>
       </nav>
     );

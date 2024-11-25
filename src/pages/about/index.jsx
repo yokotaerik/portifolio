@@ -10,10 +10,12 @@ import {
   FaJava,
   FaPython,
   FaReact,
+  
 } from "react-icons/fa";
+import { SiDotnet } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { BsFiletypeSql } from "react-icons/bs";
-import { BiLogoMongodb } from "react-icons/bi";
+import { BiLogoMongodb, BiLogoSpringBoot } from "react-icons/bi";
 import profilePic from "../../images/about-me.jpg";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -57,11 +59,8 @@ const AboutMe = () => {
             transition={transition}
           >
             <p className="text-2xl font-semibold">
-              Meu nome é Erik Camara Yokota, e eu sou um desenvolvedor de
+              Meu nome é Erik Camara Yokota,sou um desenvolvedor de
               software Full-Stack nascido e criado em São Paulo, Brasil.
-            </p>
-            <p> 
-              Atualmente estou cursando Desenvolvimento de Software Multiplataforma na Fatec Jessen Vidal de São José dos Campos.
             </p>
             <p className="text-2xl font-semibold">
               Comecei a programar em 2023 e, desde o momento em que escrevi a
@@ -90,10 +89,10 @@ const AboutMe = () => {
 
           <div>
             <h2 className="text-4xl font-bold text-blue-950 dark:text-cyan-500 mb-2">
-              Academic
+              Academico
             </h2>
-            <p>
-              I am currently studying Software Development at Fatec Jessen Vidal in São José dos Campos
+            <p className="text-xl font-semibold">
+             Estou cursando Desenvolvimento de Software Multiplataforma na Fatec Jessen Vidal in São José dos Campos
             </p>
           </div>
 
@@ -103,14 +102,14 @@ const AboutMe = () => {
             </h2>
             <span className="flex text-8xl gap-4 text-blue-950 dark:text-white flex-wrap ">
               <FaPython title="Python" />
-              <FaJava title="Java" />
-              <IoLogoJavascript title="JavaScript" />
-              <FaGitAlt title="Git" />
-              <FaReact title="React" />
+              <BiLogoSpringBoot title="SpringBoot" />
+              <FaReact title="JavaScript" />
+              <SiDotnet />
               <BsFiletypeSql title="SQL" />
               <BiLogoMongodb title="MongoDB" />
               <FaHtml5 title="HTML5" />
               <FaCss3 title="CSS3" />
+              <FaGitAlt title="Git" />
             </span>
           </div>
 
