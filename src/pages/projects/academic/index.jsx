@@ -34,16 +34,16 @@ const AcademicProjectsPage = () => {
   const projetos = [
     {
       title: "FAPG - Portal de transparência",
-      description: `API do 3° semestre construída pelo grupo Syncm que consiste em um portal de transparência para a fundação FPGA,
-  sendo possível que o administrador publique os projetos realizados pela fundação, gerando a transparência necessária que o órgão demanda.
-  Além disso, para fins internos, é possível administrar os bolsistas, relatórios através de dashboards interativas e auditoria das alterações dos projetos. \n
-  Minhas contribuições:
-  - 1ª Sprint: Modelagem do banco de dados e criação inicial da estrutura do projeto. Fui responsável pela implementação do sistema de autenticação via JWT, tanto na tela quanto no backend, além da integração com o backend para adicionar anexos e criar projetos.\n
-  - 2ª Sprint: Fui responsável pela filtragem dos dados dos projetos através de palavras-chave utilizando predicates no repositório Java, além de criar todo o fluxo responsável por filtrar os projetos que estão prestes a vencer e colocá-los em uma tela de alerta. Ademais, também contribuí para a refatoração do frontend.\n
-  - 3ª Sprint: Fui responsável por criar os campos sensíveis dos projetos, que o administrador pode ocultar do público geral. Construí todo o fluxo desde o backend ao frontend, além de ajudar a estilizar o frontend e criar um componente para download de arquivos PDF e Excel.\n
-  - 4ª Sprint: Em progresso.`,
+      description: `API do 3º semestre construída pelo grupo Sync que consiste em um portal de transparência para a fundação FAPG,
+sendo possível que o administrador publique os projetos realizados pela fundação, gerando a transparência necessária que o órgão demanda.
+Além disso, para fins internos, é possível administrar os bolsistas e relatórios através de dashboards interativas e auditoria das alterações dos projetos.
+Minhas contribuições:
+- 1ª Sprint: Modelagem do banco de dados e criação inicial da estrutura do projeto. Fui responsável pela implementação do sistema de autenticação via JWT, tanto na tela quanto no backend, além da integração com o backend para adicionar anexos e criar projetos.\n
+- 2ª Sprint: Fui responsável pela filtragem dos dados dos projetos através de palavras-chave utilizando predicates no repositório Java, além de criar todo o fluxo responsável por filtrar os projetos que estão prestes a vencer e colocá-los em uma tela de alerta. Ademais, também contribuí para a refatoração do frontend.\n
+- 3ª Sprint: Fui responsável por criar os campos sensíveis dos projetos, que o administrador pode ocultar do público geral. Construí todo o fluxo desde o backend ao frontend, além de ajudar a estilizar o frontend e criar um componente para download de arquivos PDF e Excel.\n
+- 4ª Sprint: Em progresso.`,
       stacks: [
-        "Spring Boot - Uso com autonomia e podenendo ajudar colegas a aprender",
+        "Spring Boot - Uso com autonomia e podendo ajudar colegas a aprender",
         "React - Uso com autonomia ",
         "MySql - Uso com autonomia",
       ],
