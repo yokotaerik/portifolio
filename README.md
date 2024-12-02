@@ -1,5 +1,6 @@
 
 # Erik Camara Yokota
+Sou o Erik, estudante de desenvolvimento de software multiplataforma, desenvolvedor back-end .net e essas são minhas experiências na Fatec SJC
 
 ## FAPG - Portal de Transparência
 
