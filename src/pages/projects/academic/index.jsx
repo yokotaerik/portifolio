@@ -34,13 +34,14 @@ Outro grande desafio foi a elicitação de requisitos com o cliente, que não fo
     },
     {
       title: "Woodpecker - HelpDesk",
-      description: `API do 2° semestre contruida pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker.\n
+      description: `Em 2024-01: API do 2° semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker. No qual existe o gerenciamento de funcionários, definido horários e especialidades, além disso os tickes aberto baseados nos problemas são automaticamente enviados para os respectivos perfis de funcionários, que também são organizados por tempo para conclusão baseados nos SLA que também são editáveis. Além disso conta com um dashboard dos tickeks abertos para auxiliar no entendimento dos problemas mais frequentes. API do 2º semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker.\n
       Minhas contribuições:\n
      A maior dificuldade da equipe besse projeto foi lidar com novas tecnologias, como JavaScript e TypeScript. No início, foi um pouco desafiador, mas, com o tempo, a equipe se adaptou. Além das dificuldades técnicas, enfrentamos um problema significativo de comunicação no início do trabalho. Essa falha na comunicação resultou em um desempenho aquém do esperado na primeira sprint, 
      onde praticamente não conseguimos entregar o MVP.
         No entanto, ao longo do semestre, conseguimos melhorar. Adotamos uma abordagem mais estruturada, discutindo as atividades e definindo claramente as responsabilidades de cada membro da equipe.
          Com isso, passamos a seguir o framework Scrum de forma mais eficiente. Implementamos dailys, nas quais registrávamos o que cada um havia feito. Com base nessas informações, eu montava o burndown chart para acompanhar o progresso, identificar o que já havia sido concluído e planejar as tarefas restantes.
-         Dessa forma, conseguimos entregar o projeto no prazo e com qualidade.`,
+         Dessa forma, conseguimos entregar o projeto no prazo e com qualidade. Mesmo atuando como Scrum Master, desenvolvi bastante e pude ajudar meus colegas a aprender sobre o react e o express. Pois já havia tido contato
+         com essas tecnolokgias em projetos pessoais.`,
       stacks: [
         "Node - Uso com Autonomia e pude ajudar colegas a aprender ",
         "React - Uso com Autonomia e pude ajudar colegas a aprender",
