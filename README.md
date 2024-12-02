@@ -4,7 +4,7 @@
 ## FAPG - Portal de Transparência
 
 **Descrição**  
-API do 3º semestre construída pelo grupo Sync que consiste em um portal de transparência para a fundação FAPG, sendo possível que o administrador publique os projetos realizados pela fundação, gerando a transparência necessária que o órgão demanda.  
+Em 2024-02: API do 3º semestre construída pelo grupo Sync que consiste em um portal de transparência para a fundação FAPG, sendo possível que o administrador publique os projetos realizados pela fundação, gerando a transparência necessária que o órgão demanda.  
 Além disso, para fins internos, é possível administrar os bolsistas e relatórios através de dashboards interativas e auditoria das alterações dos projetos.  
 
 **Minhas Contribuições**  
@@ -31,7 +31,7 @@ Um bom exemplo foi quando o Claudio tinha uma task de refatorar e reorganizar a 
 ## Woodpecker - HelpDesk
 
 **Descrição**  
-API do 2º semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker.  
+Em 2024-01: API do 2° semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker. No qual existe o gerenciamento de funcionários, definido horários e especialidades, além disso os tickes aberto baseados nos problemas são automaticamente enviados para os respectivos perfis de funcionários, que também são organizados por tempo para conclusão baseados nos SLA que também são editáveis. Além disso conta com um dashboard dos tickeks abertos para auxiliar no entendimento dos problemas mais frequentes. API do 2º semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker.  
 
 **Minhas Contribuições**  
 - **1ª Sprint**: Contribuí para elicitação de requisitos e modelagem do banco de dados.  
@@ -57,7 +57,7 @@ Além disso, através da comunicação e trabalho em equipe, pude auxiliar tecni
 ## Criança Renal
 
 **Descrição**  
-API do 1º semestre construída pelo grupo Pixels que consiste em criar um site informativo sobre doença renal crônica infantil com um blog para compartilhar histórias e notícias.  
+Em 2023-02: API do 1º semestre construída pelo grupo Pixels que consiste em criar um site informativo sobre doença renal crônica infantil com um blog para compartilhar histórias e notícias. Aonde existe um perfil administrador e um sistema de reportar postagens e comentários visando construir um ambiente saudável para as mães.  
 
 **Minhas Contribuições**  
 - **1ª Sprint**: Desenvolvimento do wireframe, com a principal atribuição sendo a Homepage.  
