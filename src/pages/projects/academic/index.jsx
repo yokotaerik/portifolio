@@ -4,44 +4,23 @@ import Head from "next/head";
 import { useLanguage } from "@/contexts/LanguageContext";
 import ProjectOnFatecApi from "@/components/ProjectOnFatecApi";
 
+
+// - 1ª Sprint: Modelagem do banco de dados e criação inicial da estrutura do projeto. Fui responsável pela implementação do sistema de autenticação via JWT, tanto na tela quanto no backend, além da integração com o backend para adicionar anexos e criar projetos.\n
+// - 2ª Sprint: Fui responsável pela filtragem dos dados dos projetos através de palavras-chave utilizando predicates no repositório Java, além de criar todo o fluxo responsável por filtrar os projetos que estão prestes a vencer e colocá-los em uma tela de alerta. Ademais, também contribuí para a refatoração do frontend.\n
+// - 3ª Sprint: Fui responsável por criar os campos sensíveis dos projetos, que o administrador pode ocultar do público geral. Construí todo o fluxo desde o backend ao frontend, além de ajudar a estilizar o frontend e criar um componente para download de arquivos PDF e Excel.\n
+// - 4ª Sprint: Em progresso.`,
+
 const AcademicProjectsPage = () => {
-  const projects = [
-    {
-      title: "Woodpecker - HelpDesk",
-      description:
-        "2nd semester API built by Team H.I.V.E, aimed at creating a HelpDesk system for a fictional company called Woodpecker.\n\nMy contributions:\n- 1st Sprint: Contributed to requirements elicitation and database modeling.\n- 2nd Sprint: Initial construction of the API with Node.js and React, CRUD operations, and authentication system using JWT.\n- 3rd Sprint: Implementation of ticket creation and display, implementation of image handling both in the backend and frontend, complex CRUD operations, and creation of permission middlewares.\n- 4th Sprint: Creation of charts using ReCharts with React and an endpoint to return ticket metrics for the chart.",
-      stacks: ["Node", "React", "MySql"],
-      repository: "https://github.com/TeamHiveAPI/API-2024.01",
-      softSkills: `In this project, I acted as Scrum Master, ensuring the team followed agile practices and delivered the project on time.\nA challenge I faced was that my group was polarized, with half not communicating with the other. It was a challenge during the first 2 sprints until the group reached an agreement and established a communication rhythm. Fortunately, despite the lack of communication, deliveries were always on time.\nAdditionally, through communication and teamwork, I was able to technically assist the team. Having prior experience with React and Node, I could help my colleagues with basic technical questions, such as fixing REST and consuming APIs from the frontend.`,
-    },
-    {
-      title: "Criança Renal",
-      description:
-        "API of the 1st semester built by the Pixels group that consists of creating an informative website about chronic infantile renal disease with a blog for sharing stories and news.\n\nMy contributions:\n- 1st Sprint: Development of the wireframe, with the main assignment being the Homepage.\n- 2nd Sprint: Database requirements gathering, database implementation, creation of login and session logic.\n- 3rd Sprint: Implementation of post creation and display, both on a single page and on the blog, dynamically placing the blog content.",
-      stacks: ["Flask", "MySql"],
-      repository: "https://github.com/Daiene/Pixels",
-      softSkills: `Using proactivity and teamwork, Kauê and I were responsible for implementing the backend, and together we overcame the challenge of image upload for the blog, which was very complex for us.\nAdditionally, whenever a group member couldn't solve a problem, I used resilience and positivity to tackle tasks that my colleagues couldn't due to technical difficulties.\nAfter all, they were beginners in programming, and I had some prior experience from online courses, so I used that to meet deadlines.`,
-    },
-    {
-      title: "Digital Portfolio",
-      description:
-        "Creation of a website containing my personal portfolio in the Digital Design discipline. It contains three sections: Presentation about me, projects, and about me.",
-      stacks: ["Flask", "Html", "Bootstrap"],
-      repository: "https://github.com/yokotaerik/portifolio_digital_dsm",
-    },
-  ];
 
   const projetos = [
     {
       title: "FAPG - Portal de transparência",
       description: `API do 3º semestre construída pelo grupo Sync que consiste em um portal de transparência para a fundação FAPG,
 sendo possível que o administrador publique os projetos realizados pela fundação, gerando a transparência necessária que o órgão demanda.
-Além disso, para fins internos, é possível administrar os bolsistas e relatórios através de dashboards interativas e auditoria das alterações dos projetos.
-Minhas contribuições:
-- 1ª Sprint: Modelagem do banco de dados e criação inicial da estrutura do projeto. Fui responsável pela implementação do sistema de autenticação via JWT, tanto na tela quanto no backend, além da integração com o backend para adicionar anexos e criar projetos.\n
-- 2ª Sprint: Fui responsável pela filtragem dos dados dos projetos através de palavras-chave utilizando predicates no repositório Java, além de criar todo o fluxo responsável por filtrar os projetos que estão prestes a vencer e colocá-los em uma tela de alerta. Ademais, também contribuí para a refatoração do frontend.\n
-- 3ª Sprint: Fui responsável por criar os campos sensíveis dos projetos, que o administrador pode ocultar do público geral. Construí todo o fluxo desde o backend ao frontend, além de ajudar a estilizar o frontend e criar um componente para download de arquivos PDF e Excel.\n
-- 4ª Sprint: Em progresso.`,
+Além disso, para fins internos, é possível administrar os bolsistas e relatórios através de dashboards interativas e auditoria das alterações dos projetos. \n
+Minhas contribuições:Neste projeto, atuei como desenvolvedor e enfrentei diversos desafios ao longo do processo. Inicialmente, a principal dificuldade foi a comunicação no time. Comecei no meu antigo grupo, o H.I.V.E., mas, devido à falta de alinhamento entre os integrantes, surgiu a oportunidade de reorganizar os membros. Formei então um novo grupo com pessoas de maior afinidade e com boas habilidades de desenvolvimento, o que trouxe uma nova dinâmica ao projeto e, no início, tudo correu de forma tranquila.
+No entanto, na terceira sprint, aceitamos novos integrantes no time, o que trouxe desafios adicionais. Precisamos introduzi-los ao projeto, o que demandou tempo e impactou negativamente a produtividade, além de agravar os problemas de comunicação que já enfrentávamos. Essa situação acabou prejudicando a organização e diluindo o processo ágil.
+Outro grande desafio foi a elicitação de requisitos com o cliente, que não foi eficiente e resultou em uma grande carga de trabalho acumulada para a última sprint. Isso afetou o planejamento do desenvolvimento das funcionalidades, e o código final não ficou como eu gostaria. Além disso, um dos integrantes entregou uma feature apenas parcialmente, o que forçou eu e outros membros da equipe a nos desdobrarmos para finalizar tanto essa quanto as demais pendências. Concluímos o projeto apenas no domingo, no dia da entrega, transformando um trabalho que parecia tranquilo em uma corrida contra o tempo.`, 
       stacks: [
         "Spring Boot - Uso com autonomia e podendo ajudar colegas a aprender",
         "React - Uso com autonomia ",
@@ -57,10 +36,11 @@ Minhas contribuições:
       title: "Woodpecker - HelpDesk",
       description: `API do 2° semestre contruida pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker.\n
       Minhas contribuições:\n
-      - 1ª Sprint: Contruibui para elicitação de requisitos e modelagem do banco de dados.\n
-      - 2ª Sprint: Construção inicial da API do NODE e React, CRUD e Sistema de autenticação usando JWT.\n
-      - 3ª Sprint: Implementação da criação e exibição de tickcets, implentação de imagens tanto no backend quanto no frontend e CRUDS complexos e criação de middlewares de permissões.\n
-      - 4ª Criação de gráficos utilizando o ReCharts com React e endpoint para retornar as métricas de tickets para o gráfico.`,
+     A maior dificuldade da equipe besse projeto foi lidar com novas tecnologias, como JavaScript e TypeScript. No início, foi um pouco desafiador, mas, com o tempo, a equipe se adaptou. Além das dificuldades técnicas, enfrentamos um problema significativo de comunicação no início do trabalho. Essa falha na comunicação resultou em um desempenho aquém do esperado na primeira sprint, 
+     onde praticamente não conseguimos entregar o MVP.
+        No entanto, ao longo do semestre, conseguimos melhorar. Adotamos uma abordagem mais estruturada, discutindo as atividades e definindo claramente as responsabilidades de cada membro da equipe.
+         Com isso, passamos a seguir o framework Scrum de forma mais eficiente. Implementamos dailys, nas quais registrávamos o que cada um havia feito. Com base nessas informações, eu montava o burndown chart para acompanhar o progresso, identificar o que já havia sido concluído e planejar as tarefas restantes.
+         Dessa forma, conseguimos entregar o projeto no prazo e com qualidade.`,
       stacks: [
         "Node - Uso com Autonomia e pude ajudar colegas a aprender ",
         "React - Uso com Autonomia e pude ajudar colegas a aprender",
@@ -74,7 +54,11 @@ Minhas contribuições:
     {
       title: "Criança Renal",
       description:
-        "API do 1º semestre construída pelo grupo Pixels que consiste em criar um site informativo sobre doença renal crônica infantil com um blog para compartilhar histórias e notícias.\n\nMinhas contribuições:\n- 1ª Sprint: Desenvolvimento do wireframe, com a principal atribuição sendo a Homepage.\n- 2ª Sprint: Levantamento de requisitos do banco de dados, implementação do banco de dados, criação de lógica de login e sessão.\n- 3ª Sprint: Implementação da criação e exibição de posts, tanto em uma página única quanto no blog, colocando dinamicamente o conteúdo do blog. \n- 4ª - Correções de bugs e melhorias no código.",
+        `API do 1º semestre construída pelo grupo Pixels que consiste em criar um site informativo sobre doença renal crônica infantil com um blog para compartilhar histórias e notícias
+        \nMinhas contribuições:
+Neste projeto, atuei como desenvolvedor. O grupo enfrentou muitas dificuldades no geral, pois éramos iniciantes em programação. Além disso, não tínhamos noção de prototipação no Figma, o que tornou o semestre desafiador, mas extremamente enriquecedor.
+Aprendi muito, desde o uso do Flask para renderização dinâmica até aspectos básicos de CSS e HTML. Infelizmente, não participei ativamente da estilização do projeto com CSS e HTML, e até hoje sinto que tenho um "débito técnico" em relação ao uso de CSS puro.
+Por outro lado, o trabalho no back-end foi uma descoberta marcante para mim. Foi nesse semestre que percebi que essa era minha principal vocação. Desde a modelagem de dados até a lógica necessária para construir aplicações.`,
       stacks: ["Flask - Uso com Auxlio", "MySql - Uso com Auxlio"],
       softSkills: `Utilizando proatividade e trabalho em equipe, eu e o Kauê fomos responsáveis por implementar o back-end, além de também juntos conseguimos superar o desafio de envio de imagens para o blogm, algo que estava muito complexo para nós.\n
       Além disso, sempre que um colega do grupo não conseguia resolver um problema, utilizei da resiliência e positividade para resolver as tarefas que meus colegas não conseguiam por dificuldades técnicas.\n
