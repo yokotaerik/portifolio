@@ -18,7 +18,7 @@ const AcademicProjectsPage = () => {
       description: `API do 3º semestre construída pelo grupo Sync que consiste em um portal de transparência para a fundação FAPG,sendo possível que o administrador publique os projetos realizados pela fundação, gerando a transparência necessária que o órgão demanda.
       Além disso, para fins internos, é possível administrar os bolsistas e relatórios através de dashboards interativas e auditoria das alterações dos projetos. \n
       Minhas contribuições:
-      No projeto, enfrentei desafios como problemas de comunicação e organização no time. Inicialmente, reorganizei minha equipe para melhorar a dinâmica, mas a entrada de novo integrantes na terceira sprint trouxe dificuldades adicionais, como queda na produtividade e agravamento da comunicação. A elicitação de requisitos ineficiente resultou em trabalho acumulado para a última sprint, forçando a equipe a finalizar funcionalidades às pressas.
+      Inicialmente, reorganizamos a equipe para melhorar a dinâmica, resultando em uma equipe mais organizada e eficiente,mas a entrada de novo integrantes na terceira sprint trouxe dificuldades adicionais, como queda na produtividade e agravamento da comunicação. A elicitação de requisitos ineficiente resultou em trabalho acumulado para a última sprint, forçando a equipe a finalizar funcionalidades às pressas.
       Apesar das dificuldades, aprendi a importância de comunicação, organização e colaboração para alcançar uma equipe ágil e eficiente, além de valorizar times menores e bem alinhados para maior produtividade.`,
       stacks: [
         "Spring Boot - Uso com autonomia e podendo ajudar colegas a aprender",
@@ -26,19 +26,15 @@ const AcademicProjectsPage = () => {
         "MySql - Uso com autonomia",
       ],
       softSkills: `Através do trabalho em equipe e comunicação, apesar de não atuar diretamente na codificação de algumas features, pude ajudar meus colegas desenhando soluções de como resolver as features.
-      Além disso, como a minha equipe acabou recebendo novos integrantes, tentei ajudar os novos integrantes a se integrar no nosso projeto, pois para eles a estrutura era completamente nova.
-      Um bom exemplo foi quando o Claudio tinha uma task de refatorar e reorganizar a estrutura do back-end, sentei junto com ele e expliquei algumas boas práticas e conhecimentos que eu tinha.
-      Ali fomos responsáveis por desenvolver a nova estrutura do back-end para uma melhor arquitetura e escalabilidade do projeto.`,
+      Além disso, como a minha equipe acabou recebendo novos integrantes, tentei ajudar os novos integrantes a se integrar no nosso projeto, pois para eles a estrutura era completamente nova. Um bom exemplo foi quando o Claudio tinha uma task de refatorar e reorganizar a estrutura do back-end, sentei junto com ele e expliquei algumas boas práticas e conhecimentos que eu tinha.Ali fomos responsáveis por desenvolver a nova estrutura do back-end para uma melhor arquitetura e escalabilidade do projeto.`,
       repository: "https://github.com/Sync-FATEC/API-2024.2-3SEM",
     },
     {
       title: "Woodpecker - HelpDesk",
       description: `Em 2024-01: API do 2° semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker. No qual existe o gerenciamento de funcionários, definido horários e especialidades, além disso os tickes aberto baseados nos problemas são automaticamente enviados para os respectivos perfis de funcionários, que também são organizados por tempo para conclusão baseados nos SLA que também são editáveis. Além disso conta com um dashboard dos tickeks abertos para auxiliar no entendimento dos problemas mais frequentes. API do 2º semestre construída pelo grupo Team H.I.V.E que consiste em criar um sistema de HelpDesk para uma empresa fictícia chamada Woodpecker.\n
       Minhas contribuições:\n
-     A maior dificuldade da equipe besse projeto foi lidar com novas tecnologias, como JavaScript e TypeScript. No início, foi um pouco desafiador, mas, com o tempo, a equipe se adaptou. Além das dificuldades técnicas, enfrentamos um problema significativo de comunicação no início do trabalho. Essa falha na comunicação resultou em um desempenho aquém do esperado na primeira sprint, 
-     onde praticamente não conseguimos entregar o MVP.
-        No entanto, ao longo do semestre, conseguimos melhorar. Como SM, incentivei a equipe a seguir o processo agil, logo adotamos uma abordagem mais estruturada, discutindo as atividades e definindo claramente as responsabilidades de cada membro da equipe.
-         Com isso, passamos a seguir o framework Scrum de forma mais eficiente. Implementamos dailys, nas quais registrávamos o que cada um havia feito. Com base nessas informações, eu montava o burndown chart para acompanhar o progresso, identificar o que já havia sido concluído e planejar as tarefas restantes.
+     A maior dificuldade da equipe besse projeto foi lidar com novas tecnologias, como JavaScript e TypeScript. No início, foi um pouco desafiador, mas, com o tempo, a equipe se adaptou. Além das dificuldades técnicas, enfrentamos um problema significativo de comunicação no início do trabalho. Essa falha na comunicação resultou em um desempenho aquém do esperado na primeira sprint,onde praticamente não conseguimos entregar o MVP.
+     No entanto, ao longo do semestre, conseguimos melhorar. Como SM, incentivei a equipe a seguir o processo agil, logo adotamos uma abordagem mais estruturada, discutindo as atividades e definindo claramente as responsabilidades de cada membro da equipe.Com isso, passamos a seguir o framework Scrum de forma mais eficiente. Implementamos dailys, nas quais registrávamos o que cada um havia feito. Com base nessas informações, eu montava o burndown chart para acompanhar o progresso, identificar o que já havia sido concluído e planejar as tarefas restantes.
          Dessa forma, conseguimos entregar o projeto no prazo e com qualidade. Mesmo atuando como Scrum Master, desenvolvi bastante e pude ajudar meus colegas a aprender sobre o react e o express. Pois já havia tido contato
          com essas tecnolokgias em projetos pessoais.`,
       stacks: [
