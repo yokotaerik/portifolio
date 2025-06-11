@@ -8,9 +8,6 @@ const BackendSkills = () => {
   if (language === "pt") {
     return (
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-full">
-        <span className="text-blue-950 dark:text-cyan-500">
-          <FaJava size={320} />
-        </span>
         <div className="w-full lg:w-1/2">
           <h2 className="text-4xl  font-bold text-yellow-500 dark:text-rose-500 mb-4">
             BACKEND
@@ -27,9 +24,6 @@ const BackendSkills = () => {
   } else {
     return (
       <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-full">
-        <span className="text-blue-950 dark:text-cyan-500">
-          <FaJava size={320} />
-        </span>
         <div className="w-full lg:w-1/2">
           <h2 className="text-4xl  font-bold text-yellow-500 dark:text-rose-500 mb-4">
             BACKEND

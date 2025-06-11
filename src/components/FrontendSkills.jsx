@@ -31,9 +31,6 @@ const FrontendSkills = () => {
             reutilização de código e reduzindo o tempo de desenvolvimento.
           </p>
         </div>
-        <span className="text-blue-950 dark:text-cyan-500">
-          <FaReact size={320} />
-        </span>
       </div>
     );
   } else {
@@ -61,9 +58,6 @@ const FrontendSkills = () => {
             reducing development time.
           </p>
         </div>
-        <span className="text-blue-950 dark:text-cyan-500">
-          <FaReact size={320} />
-        </span>
       </div>
     );
   }
