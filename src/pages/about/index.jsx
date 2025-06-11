@@ -83,7 +83,7 @@ const AboutMe = () => {
               Experiência profissional
             </h2>
             <p className="text-xl font-semibold">
-              Estagiando na Prime Technology como desenvolvedor backend C#
+              Desenvolvedor backend C# - Prime Technology
             </p>
           </div>
 
@@ -119,7 +119,7 @@ const AboutMe = () => {
             </h2>
             <p className="text-xl font-semibold">
               Fora do teclado, gosto de ir à academia, cozinhar comidas
-              deliciosas e passar tempo com a minha namorada.
+              deliciosas.
             </p>
           </div>
         </div>
@@ -179,7 +179,7 @@ const AboutMe = () => {
               Work
             </h2>
             <p className="text-xl font-semibold">
-              Interning at Prime Technology as backend developer C#
+              Backend developer C#  - Prime Technology  
             </p>
           </div>
 
@@ -215,7 +215,7 @@ const AboutMe = () => {
             </h2>
             <p className="text-xl font-semibold">
               Away From Keyboard, I enjoy going to the gym, cooking delicious
-              foods, and spending time with my girlfriend.
+              foods.
             </p>
           </div>
         </div>
